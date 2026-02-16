@@ -5,8 +5,8 @@ jobs:
  say-hello:
   runs-on: ubuntu-latest
   steps:
-   # - name: Run a greeting
-   #   run: echo "the CI pipeline has succesfully started!"
+   - name: Run a greeting
+     run: echo "the CI pipeline has succesfully started!"
 
    - uses: actions/checkout@v4
    
